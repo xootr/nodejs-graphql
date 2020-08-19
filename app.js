@@ -99,7 +99,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    'mongodb+srv://muggles:MUGGLES@cluster0.3fdhj.mongodb.net/nodejs_rest?retryWrites=true&w=majority'
+    '<MONGO CONNECTION STRING'
   )
   .then(result => {
     app.listen(8080);
